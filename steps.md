@@ -21,17 +21,17 @@
 
 El header deberá tener:
 
-○ Logo
-○ Lugar para poner la barra de búsqueda
-○ Comprá en cuotas y sin tarjeta de crédito
-○ Barra de navegación que posea las siguientes opciones (en el orden que decidas):
-○ Ofertas
-○ Tiendas Oficiales
-○ Vender
-○ Ayuda
-○ Creá tu cuenta
-○ Ingresá
-○ Mis compras
+Logo
+Lugar para poner la barra de búsqueda
+Comprá en cuotas y sin tarjeta de crédito
+Barra de navegación que posea las siguientes opciones (en el orden que decidas):
+Ofertas
+Tiendas Oficiales
+Vender
+Ayuda
+Creá tu cuenta
+Ingresá
+Mis compras
 
 El main deberá tener dos secciones con información de productos:
 
