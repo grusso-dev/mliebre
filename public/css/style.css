@@ -1,11 +1,26 @@
-body{
+*{
+  
+}
+header{
   background-color: #fff159;
+  /* border: 1px black solid; */
+  .text-header{ 
+    display:inline-block;
+    font: size 13px;
+  }
 }
+
 .logo{
-  width: 15%;
+  height: 34px;
+  /* border: 1px black solid; */
 }
-ol{
+ol.menu{
   text-decoration: none;
   list-style: none;
   padding: 0px;
+  display:inline-block;
+  /* border: 1px black solid; */
+  >li{
+    display:inline-block;
+  }
 }
