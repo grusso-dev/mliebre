@@ -1,0 +1,58 @@
+/*  
+Amarillo: #EAC926; 
+Azul: #03264C; 
+Celeste: #1259c3; 
+Gris oscuro: #666; 
+Gris claro: #ebebeb; 
+Verde: #39b54a; 
+*/
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header  */
+
+header {
+  background-color: #EAC926;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 8%;
+}
+
+.nav-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.espacio {
+  width: 40%;
+}
+
+.menu>ol {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li {
+  padding-right: 10px;
+}
+
+.nav-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Main */
+
+.banner>img {
+  width: 100%;
+}
