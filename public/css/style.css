@@ -1,26 +1,57 @@
 *{
-  
+  padding: 0;
+  margin: 0;
 }
-header{
+
+.header {
   background-color: #fff159;
+  display: flex;
+  flex-direction: row;
+
   /* border: 1px black solid; */
-  .text-header{ 
-    display:inline-block;
+  .text-header {
+    display: inline-block;
     font: size 13px;
   }
 }
 
-.logo{
+header {
+  background-color: #fff159;
+  /* border: 1px black solid; */
+  .text-header {
+    display: inline-block;
+    font: size 13px;
+  }
+}
+
+.logo {
   height: 34px;
   /* border: 1px black solid; */
 }
-ol.menu{
+ol.menu {
   text-decoration: none;
   list-style: none;
   padding: 0px;
-  display:inline-block;
+  /* display: inline-block; */
   /* border: 1px black solid; */
-  >li{
-    display:inline-block;
+  > li {
+    display: inline-block;
   }
 }
+/* Ejemplo Jose */
+/* Header */
+.nav-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+/* Main */
+
+/* Footer */
