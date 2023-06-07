@@ -1,58 +1,79 @@
-*{
+* {
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
 
-.header {
-  background-color: #fff159;
-  display: flex;
-  flex-direction: row;
 
-  /* border: 1px black solid; */
-  .text-header {
-    display: inline-block;
-    font: size 13px;
-  }
-}
 
 header {
   background-color: #fff159;
-  /* border: 1px black solid; */
+
   .text-header {
     display: inline-block;
-    font: size 13px;
+    font-size: 1em;
   }
 }
 
-.logo {
-  height: 34px;
-  /* border: 1px black solid; */
+/* Header */
+.nav-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
+.logo {
+  height: 1.8em;
+}
+
+.nav-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.text-header {
+  text-align: right;
+
+}
+
+.nav-espacio {
+  width: 54em;
+}
+
+.nav-menu {
+  text-align: right;
+}
+
+
 ol.menu {
   text-decoration: none;
   list-style: none;
   padding: 0px;
-  /* display: inline-block; */
-  /* border: 1px black solid; */
-  > li {
-    display: inline-block;
-  }
 }
-/* Ejemplo Jose */
-/* Header */
-.nav-top{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.nav-bottom{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 
+ol.menu>li {
+  display: inline-block;
 }
 
 /* Main */
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.item>img {
+  border: .2em solid grey;
+  width: 12em;
+}
+
+.item {
+  text-align: center;
+  width: 20em;
+  border: 1px solid black;
+  border-radius: 10%;
+}
 
 /* Footer */
