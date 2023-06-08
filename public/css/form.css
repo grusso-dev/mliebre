@@ -1,0 +1,35 @@
+/*  
+Amarillo: #EAC926; 
+Azul: #03264C; 
+Celeste: #1259c3; 
+Gris oscuro: #666; 
+Gris claro: #ebebeb; 
+Verde: #39b54a; 
+*/
+main {
+  width: min-content;
+  margin: 0 auto;
+}
+
+.formulario {
+  margin-top: 10px;
+  background-color: white;
+  padding: 30px;
+
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: #03264C;
+  color: #ebebeb;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}

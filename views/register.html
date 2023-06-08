@@ -1,18 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MercadoLiebre</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/style.css" />
+  <title>Mercado liebre</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/form.css">
+  <!-- Fuentes Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
 </head>
+
 <body>
   <header>
-    <h1>Hola</h1>
+    <div class="nav-top">
+      <!-- Logo -->
+      <img class="logo" src="https://linsock.com.ar/cursos/dh/mliebre/img/logo-mercado-liebre.svg" alt="logo" />
+    </div>
+
+    <div class="nav-bottom">
+      <!-- Espacio en blanco -->
+      <div class="espacio"></div>
+    </div>
   </header>
-  <script src="https://kit.fontawesome.com/f8ff58bf54.js" crossorigin="anonymous"> </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"/>
+  <main>
+
+    <div class="formulario">
+
+      <div class="mail">
+        <label for="mail">E-Mail:</label>
+        <input type="email" name="mail" id="mail">
+      </div>
+
+      <div class="nombre">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+      </div>
+
+      <div class="usuario">
+        <label for="usuario">Usuario:</label>
+        <input type="text" name="usuario" id="usuario">
+      </div>
+
+      <div class="direccion">
+        <label for="direccion">Direccion:</label>
+        <input type="text" name="direccion" id="direccion">
+      </div>
+
+      <div class="telefono">
+        <label for="telefono">Telefono:</label>
+        <input type="tel" name="telefono" id="telefono">
+      </div>
+      <button>Enviar</button>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="banner-footer">
+
+      <section class="card-footer">
+        <div class="icono"><i class="fa-solid fa-credit-card"></i></div>
+        <div class="titulo">Pagá con tarjeta o efectivo</div>
+        <div class="descripcion">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de
+          pago. ¡Y siempre es seguro!</div>
+      </section>
+      <section class="card-footer">
+        <div class="icono"><i class="fa-sharp fa-solid fa-gift"></i></div>
+        <div class="titulo">Envío gratis desde $ 2.500</div>
+        <div class="descripcion">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos.
+          Es
+          un beneficio de Mercado Puntos.</div>
+      </section>
+      <section class="card-footer">
+        <div class="icono"><i class="fa-solid fa-user-shield"></i></div>
+        <div class="titulo">Seguridad, de principio a fin</div>
+        <div class="descripcion">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque
+          estás siempre protegid@.</div>
+      </section>
+    </div>
+
+    <div class="copyr">Copyright © 1999-2023 MercadoLiebre S.R.L.</div>
+
+
+  </footer>
+
+
+  <script src="https://kit.fontawesome.com/f8ff58bf54.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
