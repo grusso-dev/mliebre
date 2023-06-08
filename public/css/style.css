@@ -1,84 +1,65 @@
+/*  
+Amarillo: #EAC926; 
+Azul: #03264C; 
+Celeste: #1259c3; 
+Gris oscuro: #666; 
+Gris claro: #ebebeb; 
+Verde: #39b54a; 
+*/
+
 * {
-  padding: 0;
-  margin: 0;
   font-family: 'Roboto', sans-serif;
+  font-size: 12px;
 }
 
-
+/* header  */
 
 header {
-  background-color: #fff159;
-
-  .text-header {
-    display: inline-block;
-    font-size: 1em;
-  }
+  background-color: #EAC926;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Header */
+.logo {
+  width: 8%;
+}
+
 .nav-top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
 }
 
-.logo {
-  height: 3em;
+.espacio {
+  width: 40%;
+}
+
+.menu>ol {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li {
+  padding-right: 10px;
 }
 
 .nav-bottom {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-
-}
-
-.serch {
-  width: 50%;
-}
-
-.serch>input {
-  width: 80%;
-  margin-right: 0%;
-
-}
-
-.serch>button {
-  width: 10%;
-  margin-left: 0%;
-}
-
-.text-header {
-  text-align: right;
-
-}
-
-.nav-espacio {
-  width: 40%;
-}
-
-.nav-menu {
-  text-align: right;
-}
-
-
-ol.menu {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-}
-
-ol.menu>li {
-  padding-right: 10px;
+  justify-content: space-around;
 }
 
 /* Main */
+main {
+  background-color: #ebebeb;
+  padding-bottom: 10px;
+}
 
-.banner {
-  text-align: center;
-  width: 100%;
+h3 {
+  font-size: 24px;
 }
 
 .banner>img {
@@ -89,23 +70,68 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: .5em;
 }
 
-.item>img {
-  /* border: .2em solid grey; */
-  width: 10em;
-}
-
-.item {
-  text-align: center;
-  width: 30em;
-  /* border-radius: 10%; */
-  padding: 20px;
+.articulo {
+  /* border: 1px solid grey; */
+  background-color: white;
   box-shadow:
     inset 0 -3em 3em rgba(0, 0, 0, 0.1),
     0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
-/* Footer */
+.articulo>img {
+  width: 300px;
+}
+
+/* No se si va así */
+.articulo>.precio {
+  font-size: 18px;
+}
+
+.articulo>.descuento {
+  font-size: 16px;
+  font-weight: bold;
+  color: #39b54a;
+
+}
+
+.articulo>.descripcion {
+  font-size: 16px;
+}
+
+/* footer */
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section.card-footer {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid grey; */
+  width: 300px;
+}
+
+.card-footer>.icono {
+  text-align: center;
+  font-size: medium;
+
+}
+
+.card-footer>.icono>i {
+  color: #03264C;
+  font-size: 2em;
+
+}
+
+.card-footer>.titulo {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}

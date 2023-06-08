@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MercadoLiebre</title>
-  <link rel="stylesheet" href="/css/style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercado liebre</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- Fuentes Roboto -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
@@ -15,34 +16,37 @@
 <body>
   <header>
     <div class="nav-top">
+      <!-- Logo -->
       <img class="logo" src="https://linsock.com.ar/cursos/dh/mliebre/img/logo-mercado-liebre.svg" alt="logo" />
-      <div class="serch">
-        <input type="text" placeholder="Buscar productos, marcas" />
-        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      <!-- Busqueda -->
+      <div class="busqueda">
+        <input type="text" placeholder="Buscar producto">
+        <button>Buscar</button>
       </div>
-      <div class="text-header">
-        <i class="fa-solid fa-hand-holding-dollar"></i>Compra en cuotas y sin
-        tarjeta de crédito
+      <!-- Texto -->
+      <div class="nav-text">
+        Comprá en cuotas y sin tarjeta de crédito
       </div>
     </div>
-    <div class="nav-bottom">
-      <div class="nav-espacio"></div>
 
-      <div class="nav-menu">
-        <ol class="menu">
-          <li>Ofertas</li>
-          <li>Tiendas oficiales</li>
-          <li>Vender</li>
-          <li>Ayuda</li>
+    <div class="nav-bottom">
+      <!-- Espacio en blanco -->
+      <div class="espacio"></div>
+      <!--  Primer menu -->
+      <div class="menu">
+        <ol>
+          <li><a href="">Ofertas</a></li>
+          <li><a href="">Tiendas Oficiales</a></li>
+          <li><a href="">Vender</a></li>
+          <li><a href="">Ayuda</a></li>
         </ol>
       </div>
-      <div class="nav-menu">
-        <ol class="menu">
-          <li>Créa tu cienta <i class="fa-regular fa-address-card"></i></li>
-          <li>ingresá <i class="fa-solid fa-right-to-bracket"></i></li>
-          <li>
-            Mis compras <i class="fa-sharp fa-solid fa-basket-shopping"></i>
-          </li>
+      <!-- Segundo menu -->
+      <div class="menu">
+        <ol>
+          <li><a href="">Creá tu cuenta</a></li>
+          <li><a href="">Ingresá</a></li>
+          <li><a href="">Mis Compras</a></li>
         </ol>
       </div>
     </div>
@@ -50,96 +54,110 @@
 
   <main>
     <div class="banner">
-      <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-home-banner.jpg" alt="">
+      <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-home-banner.jpg" alt="banner">
     </div>
     <h3>En base a la ultima visita</h3>
-    <section class="visita">
-      <div class="item">
-        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-cafetera-moulinex.jpg" alt="" />
+    <section class="ultimo">
+      <!-- articulo 1 -->
+      <div class="articulo">
+        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-cafetera-moulinex.jpg" alt="cafetera">
         <hr>
-        <div class="precio">$39.000</div>
-        <div class="descuento">
-          20% off
-        </div>
-        <div class="dec">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-macbook-pro-2019.jpg" alt="" />
-        <hr>
-        <div class="precio">$39.000</div>
+        <div class="precio">$30000</div>
         <div class="descuento">20% off</div>
-        <div class="dec">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
+        <div class="descripcion">Cafetera Dolce Gusto</div>
       </div>
-      <div class="item">
-        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-samsung-galaxy-s10.jpg" alt="" />
+      <!-- articulo 2 -->
+      <div class="articulo">
+        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-macbook-pro-2019.jpg" alt="cafetera">
         <hr>
-        <div class="precio">$39.000</div>
+        <div class="precio">$30000</div>
         <div class="descuento">20% off</div>
-        <div class="dec">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
+        <div class="descripcion">Macbook Pro 2019</div>
       </div>
-      <div class="item">
-        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-tv-samsung-smart.jpg" alt="" />
+      <!-- articulo 3 -->
+      <div class="articulo">
+        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-samsung-galaxy-s10.jpg" alt="cafetera">
         <hr>
-        <div class="precio">$39.000</div>
+        <div class="precio">$30000</div>
         <div class="descuento">20% off</div>
-        <div class="dec">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
+        <div class="descripcion">Smart Phone Samsung galaxy s10</div>
+      </div>
+      <!-- articulo 4 -->
+      <div class="articulo">
+        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-tv-samsung-smart.jpg" alt="cafetera">
+        <hr>
+        <div class="precio">$30000</div>
+        <div class="descuento">20% off</div>
+        <div class="descripcion">Smart TV Samsung</div>
       </div>
     </section>
     <h3>Ofertas</h3>
     <section class="ofertas">
-      <div class="item">
-        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-cafetera-moulinex.jpg" alt="" />
+      <!-- articulo 1 -->
+      <div class="articulo">
+        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-cafetera-moulinex.jpg" alt="cafetera">
         <hr>
-        <div class="precio">
-          $39.000
-        </div>
-        <div class="descuento">
-          20% off
-        </div>
-        <div class="dec">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </div>
-      </div>
-      <div class="item">
-        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-macbook-pro-2019.jpg" alt="" />
-        <hr>
-        <div class="precio">$39.000</div>
+        <div class="precio">$30000</div>
         <div class="descuento">20% off</div>
-        <div class="dec">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
+        <div class="descripcion">Cafetera Dolce Gusto</div>
       </div>
-      <div class="item">
-        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-samsung-galaxy-s10.jpg" alt="" />
+      <!-- articulo 2 -->
+      <div class="articulo">
+        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-macbook-pro-2019.jpg" alt="cafetera">
         <hr>
-        <div class="precio">$39.000</div>
+        <div class="precio">$30000</div>
         <div class="descuento">20% off</div>
-        <div class="dec">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
+        <div class="descripcion">Macbook Pro 2019</div>
       </div>
-      <div class="item">
-        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-tv-samsung-smart.jpg" alt="" />
+      <!-- articulo 3 -->
+      <div class="articulo">
+        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-samsung-galaxy-s10.jpg" alt="cafetera">
         <hr>
-        <div class="precio">$39.000</div>
+        <div class="precio">$30000</div>
         <div class="descuento">20% off</div>
-        <div class="dec">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
+        <div class="descripcion">Smart Phone Samsung galaxy s10</div>
       </div>
+      <!-- articulo 4 -->
+      <div class="articulo">
+        <img src="https://linsock.com.ar/cursos/dh/mliebre/img/img-tv-samsung-smart.jpg" alt="cafetera">
+        <hr>
+        <div class="precio">$30000</div>
+        <div class="descuento">20% off</div>
+        <div class="descripcion">Smart TV Samsung</div>
+      </div>
+
     </section>
+
   </main>
 
-  <footer></footer>
+  <footer>
+    <section class="card-footer">
+      <div class="icono"><i class="fa-solid fa-credit-card"></i></div>
+      <div class="titulo">Pagá con tarjeta o efectivo</div>
+      <div class="descripcion">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de
+        pago. ¡Y siempre es seguro!</div>
+    </section>
+    <section class="card-footer">
+      <div class="icono"><i class="fa-sharp fa-solid fa-gift"></i></div>
+      <div class="titulo">Envío gratis desde $ 2.500</div>
+      <div class="descripcion">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es
+        un beneficio de Mercado Puntos.</div>
+    </section>
+    <section class="card-footer">
+      <div class="icono"><i class="fa-solid fa-user-shield"></i></div>
+      <div class="titulo">Seguridad, de principio a fin</div>
+      <div class="descripcion">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque
+        estás siempre protegid@.</div>
+    </section>
+    <section class="card-footer">
+      <!-- <div class="icono"><i class="fa-solid fa-credit-card"></i></div> -->
+      <!-- <div class="titulo">Pagá con tarjeta o efectivo</div> -->
+      <div class="descripcion">Copyright © 1999-2020 <br> MercadoLiebre S.R.L.</div>
+    </section>
+
+
+  </footer>
+
   <script src="https://kit.fontawesome.com/f8ff58bf54.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" />
 </body>
