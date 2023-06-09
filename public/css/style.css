@@ -94,6 +94,13 @@ section {
   justify-content: space-around;
 }
 
+.art-grp {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .articulo {
   /* border: 1px solid grey; */
   background-color: white;
@@ -205,6 +212,13 @@ section.card-footer {
 
 /* Celu */
 @media (max-width:360px) {
+
+  .art-grp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   .menu {
     display: none;
   }
